@@ -1,5 +1,5 @@
 ARG UBUNTU_RELEASE=18.04
-FROM --platform=linux/amd64 ubuntu:${UBUNTU_RELEASE}    
+FROM ubuntu:${UBUNTU_RELEASE}    
 
 # The following sections are based directly on the
 # https://hub.docker.com/_/node docker image steps
